@@ -1,0 +1,266 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+  
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+    
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+.nav{
+ width: 100vw;
+ height: 8vw;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2.5vw;
+border-bottom: 2px solid orange;
+
+}
+.nav ul{
+      
+    list-style: none;
+    display: flex;
+    gap: 3.5vw;
+    color: white;
+}
+.nav ul li a{
+ text-decoration: none;
+ color: white;
+ font-family: 'Cabin', sans-serif;
+
+ font-size: 1.5vw;
+ text-transform: uppercase;
+
+
+
+
+}
+.nav i{
+    display: none;
+}
+.nav ul li a:hover{
+    color: orange;
+}
+.logo1{
+
+    width: 15vw;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6vw;
+    
+}
+.mainlogo{
+
+    width: 28vw;
+}
+.about h1{
+   
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 3.5vw;
+    margin-bottom: 1.5vw;
+    color: orange;
+    border-bottom: 2px solid orange;
+    
+
+
+}
+.about p{
+
+    text-transform: uppercase;
+    font-size: 1.5vw ;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 3.5vw ;
+    color: white;
+    word-spacing: 0.5vw;
+    line-height: 2.5vw;
+ 
+}
+span{
+
+    color: orange;
+}
+.char h1{
+
+         
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5vw;
+    font-size: 3vw;
+    padding-left: 4vw;
+    letter-spacing: 0.3vw;
+    border-bottom: 0.2vw solid orange;
+    height: 4vw;
+    
+}
+.PABLO{
+    color: white;
+}
+.raggins{
+    color: white;
+}
+.PABLO img{
+
+   width: 25VW;
+   padding: 2VW;
+   margin-left: 5vw;
+   margin-top: 2vw;
+
+
+}
+.PABLO{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    padding-right: 6vw;
+
+}
+.storyofpablo h1{
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    margin-left: 3.5vw;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.storyofpablo p{
+   padding-right: 1.5vw;
+    font-size:1.5vw ;
+    word-spacing: 0.5vw;
+    line-height: 2.5vw;
+    margin-top: 2.5vw;
+    margin-left: 3.5vw ;
+    
+
+}
+
+.raggins img{
+
+    width: 25VW;
+    padding: 2VW;
+    margin-left: 5vw;
+    margin-top: 2vw;
+ 
+ 
+ }
+ .raggins{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Cabin', sans-serif;
+     padding-right: 6vw;
+ 
+ }
+ .storyofraggins h1{
+     font-size: 4vw;
+     letter-spacing: 0.1vw;
+     margin-left: 3.5vw;
+     color: orange;
+     border-bottom: 2px solid orange;
+ }
+ .storyofraggins p{
+    
+     font-size:1.5vw ;
+     word-spacing: 0.5vw;
+     line-height: 2.5vw;
+     margin-top: 2.5vw;
+     margin-left: 3.5vw ;
+     
+ 
+ }
+ .storyofraggins{
+
+    padding-left: 5vw;
+ }
+ .randy{
+    color: white;
+
+ }
+
+
+
+
+ .randy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    padding-right: 6vw;
+
+}
+.storyofrandy h1{
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    margin-left: 3.5vw;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.storyofrandy p{
+   padding-right: 1.5vw;
+    font-size:1.5vw ;
+    word-spacing: 0.5vw;
+    line-height: 2.5vw;
+    margin-top: 2.5vw;
+    margin-left: 3.5vw ;
+}
+.randy img{
+
+    width: 25VW;
+    padding: 2VW;
+    margin-left: 5vw;
+    margin-top: 2vw;
+ 
+ 
+ }
+ button{
+
+    width: 10vw;
+    height: 4vw;
+    border: 0.5px solid white;
+    margin-left: 50vw;
+    background-color: orange;
+    color: white;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    padding: 0.5vw;
+    font-family: 'Cabin', sans-serif;
+ }
+ button:hover{
+
+    background-color: #fff;
+    color: orange;
+    border: 0.5px solid orange;
+    font-size: 1.7vw;
+ }
+ .char{
+    padding: 0 2vw;
+ }
+
+ @media(max-width:500px){
+                 
+    .nav i{
+
+        display: none;
+    }
+
+
+
+
+ }
